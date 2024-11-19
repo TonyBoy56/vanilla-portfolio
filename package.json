@@ -1,0 +1,12 @@
+{
+  "name": "vanilla-portfolio",
+  "version": "1.0.0",
+  "description": "Welcome to my personal portfolio website! This project showcases my work, skills, and professional background, allowing visitors to learn more about me and get in touch.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
