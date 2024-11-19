@@ -29,3 +29,25 @@ jspm_packages/
 # Windows system files
 Thumbs.db
 Desktop.ini
+
+# Build artifacts
+dist/
+build/
+
+# Static assets cache (if generated)
+assets/cache/
+*.tmp
+
+# Coverage reports
+coverage/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Compiled or minified CSS/JS (if applicable)
+*.min.css
+*.min.js
+
+# Other backups
+*.bak
