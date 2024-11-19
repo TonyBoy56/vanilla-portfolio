@@ -3,13 +3,16 @@
   "version": "1.0.0",
   "description": "Welcome to my personal portfolio website! This project showcases my work, skills, and professional background, allowing visitors to learn more about me and get in touch.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.21.1"
+    "express": "^4.21.1",
+    "open": "^10.1.0"
   }
 }
