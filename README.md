@@ -39,7 +39,7 @@ This website serves as a platform to:
 ---
 
 ## File Structure
-portfolio-project/
+```portfolio-project/
 │
 ├── index.html        # Main landing page
 ├── about.html        # About me page
@@ -54,4 +54,4 @@ portfolio-project/
 │   ├── images/       # Images used in the website
 │   └── fonts/        # Custom fonts (if any)
 │
-└── README.md         # Project documentation
+└── README.md         # Project documentation```
