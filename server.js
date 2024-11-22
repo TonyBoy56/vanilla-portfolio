@@ -15,6 +15,14 @@ app.use(express.static(path.join(__dirname, 'assets')));
 app.get ('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'index.html'));
 });
+// Route for About Me page
+app.get ('/about', (req, res) => {
+    res.sendFile(path.join(__dirname, 'about.html'));
+});
+// Route for Contact page
+app.get ('/contact', (req, res) => {
+    res.sendFile(path.join(__dirname, 'contact.html'));
+});
 
 // Start the server
 app.listen(port, () => {
